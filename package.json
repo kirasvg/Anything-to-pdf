@@ -9,19 +9,43 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^4.1.0",
+    "@radix-ui/react-dialog": "^1.1.6",
+    "@radix-ui/react-progress": "^1.1.2",
+    "@radix-ui/react-toast": "^1.2.6",
+    "@react-pdf/renderer": "^4.2.2",
+    "@sparticuz/chromium": "^132.0.0",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "emitter": "^0.0.5",
+    "events": "^3.3.0",
+    "framer-motion": "^12.4.5",
+    "html-pdf-node": "^1.0.8",
+    "lucide-react": "^0.475.0",
+    "mammoth": "^1.9.0",
+    "next": "15.1.7",
+    "pdf-lib": "^1.17.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-dropzone": "^14.3.5",
+    "react-hook-form": "^7.54.2",
+    "shadcn-ui": "^0.9.4",
+    "sharp": "^0.33.5",
+    "tailwind-merge": "^3.0.1",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@shadcn/ui": "^0.0.4",
+    "@types/html-pdf-node": "^1.0.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
